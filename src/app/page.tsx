@@ -1,3 +1,5 @@
+import { Footer } from "@/components/Footer";
+
 const SOCIALS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/princek-asiedu/" },
   { label: "Substack", href: "https://substack.com/@princeasiedu" },
@@ -69,12 +71,7 @@ export default function AboutPage() {
           .
         </p>
       </article>
-
-      <footer className="foot">
-        <span>© Prince Asiedu, {new Date().getFullYear()}</span>
-        <span className="foot-sep">·</span>
-        <span>Built quietly, in Accra.</span>
-      </footer>
+      <Footer />
     </div>
   );
 }
